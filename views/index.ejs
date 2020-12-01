@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NightMeet</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>NightMeet!</h1>
+        <form id="joinForm">
+            <input type="text" placeholder="Meeting ID">
+            <button id="joinMeeting" type="submit">Join Meeting</button>
+        </form>
+        <h4>- or -</h4>
+        <button id="createMeeting">Create Meeting</button>
+    </div>
+
+    <script src = "/socket.io/socket.io.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
